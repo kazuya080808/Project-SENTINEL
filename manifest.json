@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Project SENTINEL - Genesis",
+  "version": "1.0.0",
+  "description": "Autonomous Wealth Governance Agent: Phase 1 (Sensory Organ)",
+  "author": "Sentinel-Architect",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://site.sbisec.co.jp/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_title": "SENTINEL STATUS"
+  }
+}
